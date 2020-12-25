@@ -24,15 +24,16 @@ by moderators by enabling `Everyone follows me` in the `More` Tab in the profile
 
 # Setup
 
+* add the following to the Jitsi URL (including room name):
+```
+#config.iAmRecorder=true&config.externalConnectUrl=null&config.startWithAudioMuted=true&config.startWithVideoMuted=true&interfaceConfig.APP_NAME=Jibri&interfaceConfig.DISABLE_PRESENCE_STATUS=true&interfaceConfig.DISABLE_JOIN_LEAVE_NOTIFICATIONS=true&interfaceConfig.DISABLE_FOCUS_INDICATOR=true&interfaceConfig.DISABLE_DOMINANT_SPEAKER_INDICATOR=true&config.analytics.disabled=true&config.p2p.enabled=false&config.requireDisplayName=false
+```
+
 ## official OBS Browser plugin
 
 Most of the settings can be set as CSS, just add the content from **jitsi2obs.css** to your settings and edit to your liking.
 
 ## obsolete Linux Browser OBS Plugin
-* add the following to the Jitsi URL (including room name):
-```
-#config.iAmRecorder=true&config.externalConnectUrl=null&config.startWithAudioMuted=true&config.startWithVideoMuted=true&interfaceConfig.APP_NAME=Jibri&interfaceConfig.DISABLE_PRESENCE_STATUS=true&interfaceConfig.DISABLE_JOIN_LEAVE_NOTIFICATIONS=true&interfaceConfig.DISABLE_FOCUS_INDICATOR=true&interfaceConfig.DISABLE_DOMINANT_SPEAKER_INDICATOR=true&config.analytics.disabled=true&config.p2p.enabled=false&config.requireDisplayName=false
-```
 
 * edit **jitsi2obs.js** settings to your liking.
 * add **jitsi2obs.js** to Custom JavaScript:
