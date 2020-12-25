@@ -1,0 +1,25 @@
+/* hide non-video participants, to enable remove comment markers */
+/*
+.display-avatar-only {display: none !important}
+*/
+
+/* remove blue shadow around active speaker */
+.active-speaker {box-shadow: none !important}
+
+/* add participant border */
+.remote-videos-container > .videocontainer {border: 2px solid #B239FF !important}
+
+/* set transparent background */
+body, #largeVideoContainer, #react > div, .tile-view #largeVideoContainer
+{background-color: transparent !important}
+
+/* hide other UI elements we don't need */
+.watermark, .filmstrip__toolbar, .large-video-labels,
+#new-toolbox, videoconference_page .subject, .videocontainer > .subject,
+.atlaskit-portal div, #filmstripLocalVideo,
+#localVideoTileViewContainer, span.videocontainer > span,
+.subject,  /* hide top bar with subject name */
+.indicator-container, /* hide status indicator box */
+.vertical-filmstrip div.filmstrip /* hide sidebar filmstrip when in sidebar */
+{display: none !important}
+    
