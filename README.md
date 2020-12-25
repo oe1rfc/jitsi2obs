@@ -31,3 +31,7 @@ by moderators by enabling `Everyone follows me` in the `More` Tab in the profile
 
 ![Settings](.screenshots/settings.png "Settings")
 
+# Limitations
+
+* if non-video participans are hidden, the size of the video-tiles are getting smaller with each additional (non-video) participant.
+  we would need to hot-patch Jitsi JS to fix this.
